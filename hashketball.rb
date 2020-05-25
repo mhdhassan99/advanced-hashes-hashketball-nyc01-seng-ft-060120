@@ -197,7 +197,9 @@ end
 
 
 
-def pla
+def player_stats(name)
+  game_hash.each do ||
+end
 
   
 
