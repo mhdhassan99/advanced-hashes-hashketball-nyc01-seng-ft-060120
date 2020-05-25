@@ -201,6 +201,7 @@ def player_stats(name)
     about_team[:players].each do |player|
       if name == player[:player_name]
         return player
+        binding.pry
       end
     end
   end
